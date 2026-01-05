@@ -32,7 +32,7 @@ import {
 } from 'lucide-react';
 
 // API Configuration
-const apiKey = ""; 
+const apiKey = import.meta.env.VITE_GEMINI_API_KEY; 
 
 const App = () => {
   // --- Profile State ---
